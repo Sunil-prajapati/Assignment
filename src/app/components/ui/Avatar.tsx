@@ -17,7 +17,7 @@ const Avatar: React.FC<AvatarProps> = ({ imageUrl, size = "8", name }) => {
                 />
             ) : (
                 <div
-                    className={`w-${size} h-${size} flex justify-center items-center rounded-full bg-orange-400 cursor-pointer`}
+                    className={`w-8 h-8 flex justify-center items-center rounded-full bg-orange-400 cursor-pointer`}
                 >
                     <PText
                         text={name?.substring(0, 2)?.toUpperCase()}

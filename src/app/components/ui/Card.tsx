@@ -5,8 +5,8 @@ interface CardProps {
     title: string;
     files: string;
     size: string;
-    icon?: boolean;
-    bgColor: boolean;
+    icon?: string;
+    bgColor: string;
 }
 
 const Card: React.FC<CardProps> = ({ title, files, size, icon, bgColor }) => {
